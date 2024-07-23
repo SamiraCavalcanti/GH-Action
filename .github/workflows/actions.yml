@@ -1,0 +1,10 @@
+name: meu workflow
+on: workflow_dispatch
+jobs:
+  primeiro-trabalho:
+    runs-on: ubuntu-latest
+    steps:
+      - name: saudacao 
+        run: echo "Relembrando GH Actions - Hello World! Em breve Jesus voltará!"
+      - name: print tchau
+        run: echo "Feito- Tchau!"
